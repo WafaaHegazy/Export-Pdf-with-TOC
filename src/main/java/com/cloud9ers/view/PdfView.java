@@ -43,7 +43,7 @@ public class PdfView extends AbstractPdfView {
         // model.get("users");
         document.add(new Paragraph("Generated Users " + LocalDate.now()));
         document.open();
-        addMetaData(document);
+
         createtoc(document, 2);
         addTitlePage(document);
         addContent(document, 2);
@@ -111,17 +111,6 @@ public class PdfView extends AbstractPdfView {
         document.newPage();
 
         /////////////////////////////////////////////////////////////////////////////
-
-    }
-
-
-
-    private void addMetaData(final Document document) {
-        document.addTitle("My first PDF");
-        document.addSubject("Using iText");
-        document.addKeywords("Java, PDF, iText");
-        document.addAuthor("Lars Vogel");
-        document.addCreator("Lars Vogel");
 
     }
 
