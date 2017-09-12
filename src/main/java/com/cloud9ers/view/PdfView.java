@@ -48,7 +48,6 @@ public class PdfView extends AbstractPdfView {
         addTitlePage(document);
         addContent(document, 2);
         document.close();
-
     }
 
     private void createtoc(final Document document, final int num) throws DocumentException {

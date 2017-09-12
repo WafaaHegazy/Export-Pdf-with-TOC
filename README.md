@@ -1,6 +1,6 @@
 # SpringBoot Export  PDF.
 
- This is a very simple Project that showcase  PDF using itext with generting tablr of content . 
+ This is a very simple Project that show case  PDF using itext with generating table of content . 
 
 
 
